@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.nav {
+    background-color: #eab0ea;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+}
+
+.logo{
+    font-weight: 800;
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav li{
+    padding: 20px;
+}
+.nav a {
+    color: azure;
+}
+.intro{
+    color: beige;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ), url(uwp629542.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+
+}
+.container{
+    width: 85%;
+    margin: 120px auto;
+
+}
+.container h1{
+    text-align: center;
+    margin: 20px;
+    
+}
+.row{
+    padding: 30px ;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 3s ease-in-out;
+}
+.active{
+    opacity: 1;
+    transform: scale(1);
+
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+    flex-basis: 40%;
+    padding: 50px;
+}
+
+.footer{
+    margin:40px 0 ;
+    background-color: #eab0ea;
+    padding: 40px;
+    text-align: center;
+    color: azure;
+}
